@@ -7,4 +7,4 @@ A python script to quickly install drozer on mac osx
 * Create a folder "drozerx" 
 * Place script and drozer-2.3.4-py2.7.egg in the same folder "drozerx"
 * Run the script as ```sudo python drozer_install.py```
-* launch drozer by hitting drozer via terminal 
+* Launch drozer by hitting drozer via terminal 
