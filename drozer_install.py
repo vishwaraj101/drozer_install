@@ -2,7 +2,7 @@ import os
 print "Installing Dependencies ..."
 print "\n"
 pwd=os.getcwd()
-os.system("wget wget https://pypi.python.org/packages/source/p/pyOpenSSL/pyOpenSSL-0.13.tar.gz")
+os.system("wget https://pypi.python.org/packages/source/p/pyOpenSSL/pyOpenSSL-0.13.tar.gz")
 os.system("tar xzvf pyOpenSSL-0.13.tar.gz")
 os.chdir("pyOpenSSL-0.13")
 os.system("sed -i '' 's/X509_REVOKED_dup/X509_REVOKED_dupe/' OpenSSL/crypto/crl.c")
