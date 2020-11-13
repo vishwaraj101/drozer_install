@@ -1,4 +1,4 @@
-# drozer_install
+# Install drozer in Mac OSX
 A python script to quickly install drozer on mac osx
 
 ### Steps :
